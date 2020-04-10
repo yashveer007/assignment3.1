@@ -13,7 +13,7 @@
     <description></description>
     <display-name>ShowDetails</display-name>
     <servlet-name>ShowDetails</servlet-name>
-    <servlet-class>com.capgemini.assignment.TrainingEnrollment.ShowDetails</servlet-class>
+    <servlet-class>com.capgemini.assignment.TrainingEnrollment.ui.ShowDetails</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ShowDetails</servlet-name>
@@ -28,5 +28,15 @@
   <servlet-mapping>
     <servlet-name>DbConnect</servlet-name>
     <url-pattern>/DbConnect</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserDisplay</display-name>
+    <servlet-name>UserDisplay</servlet-name>
+    <servlet-class>com.capgemini.assignment.TrainingEnrollment.ui.UserDisplay</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserDisplay</servlet-name>
+    <url-pattern>/UserDisplay</url-pattern>
   </servlet-mapping>
 </web-app>
